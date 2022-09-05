@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"H:\\Unreal Engine Projects\\UnrealObby\\Source\\UnrealObby\\UnrealObby.Build.cs",
+		"H:\\Unreal Engine Projects\\UnrealObby\\Source\\UnrealObby.Target.cs",
+		"H:\\Unreal Engine Projects\\UnrealObby\\Source\\UnrealObbyEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

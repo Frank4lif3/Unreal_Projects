@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnrealObby",
+			"Path": "H:\\Unreal Engine Projects\\UnrealObby\\Source\\UnrealObby.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnrealObbyEditor",
+			"Path": "H:\\Unreal Engine Projects\\UnrealObby\\Source\\UnrealObbyEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

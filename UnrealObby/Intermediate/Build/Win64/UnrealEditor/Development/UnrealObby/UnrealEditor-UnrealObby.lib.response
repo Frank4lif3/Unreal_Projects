@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UnrealObby.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"H:\Unreal Engine Projects\UnrealObby\Intermediate\Build\Win64\UnrealObbyEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"H:\Unreal Engine Projects\UnrealObby\Intermediate\Build\Win64\UnrealEditor\Development\UnrealObby\MovingPlatform.cpp.obj"
+"H:\Unreal Engine Projects\UnrealObby\Intermediate\Build\Win64\UnrealEditor\Development\UnrealObby\UnrealObby.cpp.obj"
+"H:\Unreal Engine Projects\UnrealObby\Intermediate\Build\Win64\UnrealEditor\Development\UnrealObby\MovingPlatform.gen.cpp.obj"
+"H:\Unreal Engine Projects\UnrealObby\Intermediate\Build\Win64\UnrealEditor\Development\UnrealObby\UnrealObby.init.gen.cpp.obj"
+"H:\Unreal Engine Projects\UnrealObby\Intermediate\Build\Win64\UnrealEditor\Development\UnrealObby\Default.rc2.res"
+/OUT:"H:\Unreal Engine Projects\UnrealObby\Intermediate\Build\Win64\UnrealEditor\Development\UnrealObby\UnrealEditor-UnrealObby.lib"

@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "UnrealObby",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "H:\\Game Dev\\UE_5.0"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	}
+}

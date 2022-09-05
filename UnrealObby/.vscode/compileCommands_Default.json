@@ -1,0 +1,27 @@
+[
+	{
+		"file": "H:\\Unreal Engine Projects\\UnrealObby\\Source\\UnrealObby\\MovingPlatform.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"H:\\Unreal Engine Projects\\UnrealObby\\.vscode\\compileCommands_Default\\UnrealObby.205.rsp\"",
+		"directory": "H:\\Game Dev\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "H:\\Unreal Engine Projects\\UnrealObby\\Source\\UnrealObby\\MovingPlatform.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"H:\\Unreal Engine Projects\\UnrealObby\\.vscode\\compileCommands_Default\\UnrealObby.205.rsp\"",
+		"directory": "H:\\Game Dev\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "H:\\Unreal Engine Projects\\UnrealObby\\Source\\UnrealObby\\UnrealObby.Build.cs",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"H:\\Unreal Engine Projects\\UnrealObby\\.vscode\\compileCommands_Default\\UnrealObby.205.rsp\"",
+		"directory": "H:\\Game Dev\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "H:\\Unreal Engine Projects\\UnrealObby\\Source\\UnrealObby\\UnrealObby.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"H:\\Unreal Engine Projects\\UnrealObby\\.vscode\\compileCommands_Default\\UnrealObby.205.rsp\"",
+		"directory": "H:\\Game Dev\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "H:\\Unreal Engine Projects\\UnrealObby\\Source\\UnrealObby\\UnrealObby.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"H:\\Unreal Engine Projects\\UnrealObby\\.vscode\\compileCommands_Default\\UnrealObby.205.rsp\"",
+		"directory": "H:\\Game Dev\\UE_5.0\\Engine\\Source"
+	}
+]

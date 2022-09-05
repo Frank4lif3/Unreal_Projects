@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "UnrealObby Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"Win64",
+				"Debug",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"Win64",
+				"Debug",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealObby Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealObby",
+				"Win64",
+				"Debug",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"Win64",
+				"DebugGame",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"Win64",
+				"DebugGame",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealObby Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealObby",
+				"Win64",
+				"DebugGame",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"Win64",
+				"Development",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"Win64",
+				"Development",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealObby Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealObby",
+				"Win64",
+				"Development",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"Win64",
+				"Test",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"Win64",
+				"Test",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealObby Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealObby",
+				"Win64",
+				"Test",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"Win64",
+				"Shipping",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"Win64",
+				"Shipping",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealObby Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealObby",
+				"Win64",
+				"Shipping",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby HoloLens Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"HoloLens",
+				"Debug",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby HoloLens Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"HoloLens",
+				"Debug",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealObby HoloLens Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby HoloLens Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealObby",
+				"HoloLens",
+				"Debug",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby HoloLens DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"HoloLens",
+				"DebugGame",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby HoloLens DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"HoloLens",
+				"DebugGame",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealObby HoloLens DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby HoloLens DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealObby",
+				"HoloLens",
+				"DebugGame",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby HoloLens Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"HoloLens",
+				"Development",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby HoloLens Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"HoloLens",
+				"Development",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealObby HoloLens Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby HoloLens Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealObby",
+				"HoloLens",
+				"Development",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby HoloLens Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"HoloLens",
+				"Test",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby HoloLens Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"HoloLens",
+				"Test",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealObby HoloLens Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby HoloLens Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealObby",
+				"HoloLens",
+				"Test",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby HoloLens Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"HoloLens",
+				"Shipping",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby HoloLens Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObby",
+				"HoloLens",
+				"Shipping",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealObby HoloLens Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObby HoloLens Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealObby",
+				"HoloLens",
+				"Shipping",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObbyEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObbyEditor",
+				"Win64",
+				"Debug",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObbyEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObbyEditor",
+				"Win64",
+				"Debug",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealObbyEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObbyEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealObbyEditor",
+				"Win64",
+				"Debug",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObbyEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObbyEditor",
+				"Win64",
+				"DebugGame",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObbyEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObbyEditor",
+				"Win64",
+				"DebugGame",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealObbyEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObbyEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealObbyEditor",
+				"Win64",
+				"DebugGame",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObbyEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObbyEditor",
+				"Win64",
+				"Development",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObbyEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealObbyEditor",
+				"Win64",
+				"Development",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealObbyEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealObbyEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealObbyEditor",
+				"Win64",
+				"Development",
+				"H:\\Unreal Engine Projects\\UnrealObby\\UnrealObby.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "H:\\Game Dev\\UE_5.0"
+			}
+		}
+	]
+}

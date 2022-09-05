@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "h:\\unreal engine projects\\unrealobby\\source\\unrealobby\\unrealobby.cpp",
+        "ProvidedModule": "",
+        "PCH": "h:\\unreal engine projects\\unrealobby\\intermediate\\build\\win64\\unrealobbyeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "h:\\unreal engine projects\\unrealobby\\intermediate\\build\\win64\\unrealeditor\\development\\unrealobby\\definitions.unrealobby.h",
+            "h:\\unreal engine projects\\unrealobby\\source\\unrealobby\\unrealobby.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
